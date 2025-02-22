@@ -36,7 +36,7 @@ struct Game {
   }
   
   // Methods
-  mutating func makeGuessForCurrentQuestio(atIndex index: Int) {
+  mutating func makeGuessForCurrentQuestion(atIndex index: Int) {
     guesses[currentQuestion] = index
   }
   
